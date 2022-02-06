@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 ## description
-Plan out your day out with this virtual schedule, after you have created your task. The live website will update its self based on whether the task are old or upcoming in different colors. Remember to hit save or your tasks will not be saved.
+Plan out your day out with this virtual schedule. The live website will update its self hourly, and will categorize into different sections based on past,present and upcoming. Remember to hit save or your tasks will not be saved.
 
 ## website
 https://fernandomoreno1.github.io/Work-Day-Scheduler/

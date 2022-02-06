@@ -24,19 +24,19 @@ $(document).ready(function () {
             var currentHour = parseInt($(this).attr("id"));
 
             if (currentHour > currentTime) {
-                $(this).removeClass("present");
                 $(this).removeClass("past");
+                $(this).removeClass("present");
                 $(this).addClass("future");
             }
             else if (currentHour === currentTime) {
                 $(this).removeClass("past");
-                $(this).removeClass("future");
                 $(this).addClass("present");
+                $(this).removeClass("future");
             }
             else {
-                $(this).removeClass("future");
-                $(this).removeClass("present");
                 $(this).addClass("past");
+                $(this).removeClass("present");
+                $(this).removeClass("future");
 
             }
         })
